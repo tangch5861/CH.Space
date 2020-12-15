@@ -7,6 +7,6 @@ namespace CH.Application.ViewModels
 {
     public class CourseViewModel
     {
-        IEnumerable<Course> Courses { get; set; }
+        public IEnumerable<Course> Courses { get; set; }
     }
 }

@@ -7,7 +7,7 @@ namespace CH.Application.Interfaces
 {
     public interface ICourseService
     {
-        IEnumerable<CourseViewModel> GetCourses();
+        CourseViewModel GetCourses();
 
     }
 }
