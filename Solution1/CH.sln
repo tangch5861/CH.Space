@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH.Domain", "CH.Domain\CH.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH.Infra.Data", "CH.Infra.Data\CH.Infra.Data.csproj", "{A2B9B416-B851-4268-A60F-61A9874E5917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH.Application", "CH.Application\CH.Application.csproj", "{6D36103D-9BF5-40BC-959E-F00F2D57A38B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH.Application", "CH.Application\CH.Application.csproj", "{6D36103D-9BF5-40BC-959E-F00F2D57A38B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH.Infra.IoC", "CH.Infra.IoC\CH.Infra.IoC.csproj", "{B17EC1C3-AB2A-455C-ABD6-7685724A6EB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH.Infra.IoC", "CH.Infra.IoC\CH.Infra.IoC.csproj", "{B17EC1C3-AB2A-455C-ABD6-7685724A6EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{B55E73F1-D81F-4196-9EAA-C6CDF3325043}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{0DE2D82A-ADA3-4E42-83BC-454F0CFD133B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
