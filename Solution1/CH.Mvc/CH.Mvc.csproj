@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CH.Infra.Data\CH.Infra.Data.csproj" />
     <ProjectReference Include="..\CH.Infra.IoC\CH.Infra.IoC.csproj" />
   </ItemGroup>
 
