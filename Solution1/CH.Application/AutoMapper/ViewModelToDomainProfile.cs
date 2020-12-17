@@ -11,8 +11,7 @@ namespace CH.Application.AutoMapper
     {
         public ViewModelToDomainProfile()
         {
-            CreateMap<CourseViewModel, CreateCourseCommand>()
-                .ConvertUsing(c => new CreateCourseCommand(c.Name, c.Description, c.ImageUrl));
+            CreateMap<BranchViewModel, CreateBranchCommand>();
         }
     }
 }

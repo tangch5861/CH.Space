@@ -24,12 +24,15 @@ namespace CH.Infra.IoC
 
             //Domain Handler
             services.AddScoped<IRequestHandler<CreateCourseCommand, bool>, CourseCommandHandler>();
+            services.AddScoped<IRequestHandler<CreateBranchCommand, bool>, BranchCommandHandler>();
 
             //Application Layer
             services.AddScoped<ICourseService, CourseService>();
+            services.AddScoped<IBranchService, BranchService>();
 
             //Infra.Data Layer
             services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<IBranchRepository, BranchRepository>();
             services.AddScoped<UniversityDBContext>();
         }
     }

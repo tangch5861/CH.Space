@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using CH.Infra.Data.Context;
 using CH.Infra.IoC;
 using MediatR;
+using CH.Mvc.Configuration;
 
 namespace CH.Mvc
 {
@@ -44,6 +45,8 @@ namespace CH.Mvc
             services.AddRazorPages();
 
             services.AddMediatR(typeof(Startup));
+
+            services.RegisterAutoMapper();
 
             RegisterServices(services);
         }

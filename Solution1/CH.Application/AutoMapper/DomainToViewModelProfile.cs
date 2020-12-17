@@ -12,6 +12,7 @@ namespace CH.Application.AutoMapper
         public DomainToViewModelProfile()
         {
             CreateMap<Course, CourseViewModel>();
+            CreateMap<Branch, BranchViewModel>();
         }
     }
 }

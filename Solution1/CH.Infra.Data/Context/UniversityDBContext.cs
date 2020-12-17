@@ -14,5 +14,6 @@ namespace CH.Infra.Data.Context
         }
 
         public DbSet<Course> Courses { get; set; }
+        public DbSet<Branch> Branches { get; set; }
     }
 }

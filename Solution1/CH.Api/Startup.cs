@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CH.Api.Configuration;
 using CH.Infra.Data.Context;
 using CH.Infra.IoC;
 using MediatR;
@@ -42,6 +43,8 @@ namespace CH.Api
             });
 
             services.AddMediatR(typeof(Startup));
+
+            services.RegisterAutoMapper();
 
             RegisterServices(services);
         }

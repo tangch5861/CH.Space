@@ -1,0 +1,14 @@
+﻿@model IEnumerable<CH.Application.ViewModels.BranchViewModel>
+
+<div class="container body-content">
+    <div class="row course-content">
+        @foreach(var branch in Model)
+        {
+            <div class="course-image-container">
+                <div class="course-image" style="background-image:url(@branch.Mobile)"></div>
+
+            </div>
+            <span>@branch.CompanyName</span>
+        }
+    </div>
+</div>
