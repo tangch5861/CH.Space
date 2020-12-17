@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using CH.Infra.Data.Context;
 using CH.Infra.IoC;
+using MediatR;
 
 namespace CH.Mvc
 {
@@ -41,6 +42,8 @@ namespace CH.Mvc
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddMediatR(typeof(Startup));
 
             RegisterServices(services);
         }
